@@ -1,7 +1,7 @@
 " Description:        html5 (and html4) indenter
 " Changed By:        Brian Gershon <brian.five@gmail.com>
 " Last Change:        30 Jan 2011
-" 
+"
 "   1. Started with vim72 html indent file authored by Johannes Zellner (below)
 "   2. Added html5 list as described here:
 "      http://stackoverflow.com/questions/3232518/how-to-update-vim-to-color-code-new-html-elements
@@ -18,9 +18,9 @@
 
 
 " Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-    finish
-endif
+" if exists("b:did_indent")
+"     finish
+" endif
 let b:did_indent = 1
 
 " [-- local settings (must come before aborting the script) --]
